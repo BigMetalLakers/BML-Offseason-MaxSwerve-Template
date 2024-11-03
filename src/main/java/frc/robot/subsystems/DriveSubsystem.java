@@ -63,7 +63,7 @@ public class DriveSubsystem extends SubsystemBase {
   // Camera
   PhotonCamera tagCamera = new PhotonCamera("Camera_Module_v1");
   public static boolean pHasTarget,  tagTarget;
-  public Transform3d cameraToRobot = new Transform3d(-0.25, 0.0, 0.0, new Rotation3d(0, Units.degreesToRadians(15), 0)); 
+  public Transform3d cameraToRobot = new Transform3d(-0.22, 0.0, 0.0, new Rotation3d(0, Units.degreesToRadians(15), 0)); 
   public Pose2d robotPosition = new Pose2d();
 
   // Slew rate filter variables for controlling lateral acceleration
